@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio | Lamberti Emanuel Adrian</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="shortcut icon" href="images/favicon-16x16.png">
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+
+<!-- PRELOADER -->
+<img id="preloader" src="images/1488.gif" alt="" />
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+	<!-- PAGE -->
+	<div id="page">
+		<!-- HEADER -->
+		<header>
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<a href="index.html" ><img src="/images/logo_personal.png" alt="logo personal EL"></a>
+					</div><!-- //LOGO -->
+					<!-- SEARCH FORM -->
+					<div id="search-form" class="pull-right">
+						<form method="get" action="#">
+							<input type="text" name="Buscar" value="Buscar" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
+						</form>
+					</div><!-- SEARCH FORM -->
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="#home" >Inicio</a></li>
+								<li class="scroll_btn"><a href="#about" >Sobre mí</a></li>
+								<li class="scroll_btn"><a href="#projects" >Projectos</a></li>
+								<li class="scroll_btn last"><a href="#contacts" >Contactos</a></li>
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+
+		<!-- HOME -->
+		<section id="home" class="padbot0">	
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<ul class="slides">
+					<li class="slide1">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay2 FromTop">Técnico</p>
+							<p class="title2 captionDelay4 FromTop">en Diseño</p>
+							<p class="title3 captionDelay6 FromTop">Gráfico</p>
+							<p class="title4 captionDelay7 FromBottom">Como diseñador gráfico me apasiona mucho la estética en mis trabajos y que me caracterizo por el entusiasmo y profesionalismo en cada uno de mis proyectos.</p>
+						</div>
+						<!--<a class="slide_btn FromRight" href="javascript:void(0);" >Leer más</a>-->
+					<li class="slide2">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay6 FromLeft">Diseños</p>
+							<p class="title2 captionDelay4 FromLeft">Web</p>
+							<p class="title3 captionDelay2 FromLeft">Responsivos</p>
+							<p class="title4 captionDelay7 FromLeft">Tengo conocimientos de programación, sobre todo en la parte del Desarrollo Frontend. Me especializo en tecnologias como HTML, CSS, Javascript, React, y Bootstrap.</p>
+						</div>
+						<!--<a class="slide_btn FromRight" href="javascript:void(0);" >Leer más</a>-->
+					</li>
+					<li class="slide3">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromBottom">Sorprendentes</p>
+							<p class="title2 captionDelay2 FromBottom">Videos</p>
+							<p class="title3 captionDelay3 FromBottom">y Multimedias</p>
+							<p class="title4 captionDelay5 FromBottom">Como diseñador, me destaco también por conocer tecnologias para crear piezas audiovisuales de alta calidad en diferentes formatos.</p>
+						</div>
+						<!--<a class="slide_btn FromRight" href="javascript:void(0);" >Leer más</a>-->
+						<!-- VIDEO BACKGROUND -->
+						<a id="P2" class="player" data-property="{videoURL:'tDvBwPzJ7dY',containment:'.top_slider .slide3',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+						<!-- //VIDEO BACKGROUND -->
+					</li>
+				</ul>
+			</div>
+			<div id="carousel">
+				<ul class="slides">
+					<li><img src="images/slider/Sin título01.png" alt="slider monocromático" /></li>
+					<li><img src="images/slider/slider2.jpg" alt="slider con monitor" /></li>
+					<li><img src="images/slider/slider3.jpg" alt="slider escritorio" /></li>
+				</ul>
+			</div><!-- //TOP SLIDER -->
+		</section><!-- //HOME -->
+		
+		<!-- ABOUT -->
+		<section id="about">
+			<!-- CLEAN CODE -->
+			<div class="cleancode_block">
+				<!-- CONTAINER -->
+				<div class="container" data-appear-top-offset="-200" data-animated="fadeInUp">
+					<!-- CASTOM TAB -->
+					<div id="myTabContent" class="tab-content">
+						<div class="tab-pane fade in active clearfix" id="tab1">
+							<p class="title"><b>Sobre</b> mí</p>
+							<span>Soy Técnico en Diseño Gráfico y Comunicación Visual, capacitado en el desarrollo de aplicaciones web. Complemento mi tarea de programador con mi especialización de diseñador para crear visitas siguiendo el patrón UX/UI.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab2">
+							<p class="title"><b>Diseñador</b> Gráfico</p>
+							<span>Soy un diseñador gráfico apasionado por transformar ideas en soluciones visuales efectivas. Con mis conocimientos en herramientas digitales como los programas de Adobe, soy capaz de realizar banners, branding, diseño editorial ,y logotipos de alta calidad.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab3">
+							<p class="title"><b>Programador</b></p>
+							<span>Como programador fullstack cuento con experiencia en desarrollar aplicaciones web robustas y escalables. Adquirí conocimientos en varios cursos de alta calidad a lo largo de los años para impulsarme en varias herramientas como Java, JavaScript, y React.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab4">
+							<p class="title"><b>UX/UI</b></p>
+							<span>En mi rol como Diseñador UX/UI soy capaz de realizar sistemas y patrones de alta calidad con diseños responsivos. Me manejo con fluidez con la herramienta de Figma para desarrollar wireframes y prototipos de alta fidelidad.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab5">
+							<p class="title"><b>Multimedia</b></p>
+							<span>Con una buena experiencia en edición de vídeos, soy capaz de desarrollar piezas audiovisuales de alta calidad con varios propósitos Me manejo muy bien con los programas de Adobe, y CatCup.</span>
+						</div>
+						<div class="tab-pane fade clearfix" id="tab6">
+							<p class="title"><b>Ilustrador</b> Digital</p>
+							<span>Con mis conocimientos de diseñador gráfico pude desarrollar creatividad y me centré en estilos estéticos para realizar piezas gráficas de alta calidad en softwares como Ilustrator y Clip Studio Paint.</span>
+						</div>
+					</div>
+					<ul id="myTab" class="nav nav-tabs">
+						<li class="active"><a class="i1" href="#tab1" data-toggle="tab" ><i></i><span>Sobre mí</span></a></li>
+						<li><a class="i2" href="#tab2" data-toggle="tab" ><i></i><span>Diseñador gráfico</span></a></li>
+						<li><a class="i3" href="#tab3" data-toggle="tab" ><i></i><span>Programador</span></a></li>
+						<li><a class="i4" href="#tab4" data-toggle="tab" ><i></i><span>UX/UI</span></a></li>
+						<li><a class="i5" href="#tab5" data-toggle="tab" ><i></i><span>Multimedia</span></a></li>
+						<li><a class="i6" href="#tab6" data-toggle="tab" ><i></i><span>Ilustrador Digital</span></a></li>
+					</ul><!-- CASTOM TAB -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //CLEAN CODE -->
+			
+			<!-- MULTI PURPOSE -->
+			<div class="purpose_block">
+				<!-- CONTAINER -->
+				<div class="container">
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-7 col-md-7 col-sm-7" data-appear-top-offset="-200" data-animated="fadeInLeft">
+							<h2><b>Diseñador Web</b> y Diseño UX/UI</h2>
+							<p>Soy un profesional con sólida experiencia y conocimientos técnicos en Diseño UX/UI.</p>
+							<p>Prototipados de alta fidelidad y wireframes efectivos para optimizar la experiencia del usuario, se entrelazan con mis conocimientos como Técnico en Diseñado Gráfico y Comunicación Visual para desarrollar una aplicación altamente profesional.</p>
+							<a class="btn btn-active" href="proyectos ux-ui.html" ><!--<span data-hover="Yes I want it">-->Ver más ejemplos<!--</span>--></a>
+							<!-- <a class="btn" href="javascript:void(0);" >View more templates</a>-->
+						</div>
+						
+						<div class="col-lg-5 col-md-5 col-sm-5 ipad_img_in" data-appear-top-offset="-200" data-animated="fadeInRight">
+							<img class="ipad_img1" src="images/img1.png" alt="" />
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //MULTI PURPOSE -->
+		</section><!-- //ABOUT -->
+		
+		<!-- PROJECTS -->
+		<section id="projects" class="padbot20">
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>Proyectos</b> destacados</h2>
+			</div><!-- //CONTAINER -->
+			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+				<!-- PROJECTS SLIDER -->
+				<div class="owl-demo owl-carousel projects_slider">
+					
+					<!-- work1 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="/images/works/la-casa-del-sabor.png" alt="La casa del sabor" />
+								<a class="zoom" href="https://la-casa-del-sabor.vercel.app" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="la casa del sabor.html" >La casa del Sabor</a>
+									<span>2023</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work1 -->
+					
+					<!-- work2 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/business-technology.png" alt="business-technology" />
+								<a class="zoom" href="https://business-tecnology.vercel.app" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="business.html" >Business Technology</a>
+									<span>2023</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work2 -->
+					
+					<!-- work3 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/turismo.png" alt="Turismo al día" />
+								<a class="zoom" href="https://turismo-al-dia.vercel.app" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="turismo al dia.html" >Turismo al día</a>
+									<span>2023</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work3 -->
+					
+					<!-- work4 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/fidelity.png" alt="Fidelity Company" />
+								<a class="zoom" href="https://fidelity-company.vercel.app" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="fidelity company.html" >Fidelity Company</a>
+									<span>2023</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work4 -->
+					
+					<!-- work5 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/mega-rocket-web.png" alt="Mega-Rocket-Web" />
+								<a class="zoom" href="https://mega-rocket-gym-front.vercel.app/auth/home" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="mega gym rocket.html" >Mega Rocket Gym</a>
+									<span>2023</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work5 -->
+					
+					<!-- work6 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/Web futurista.png" alt="Web estilo futurista" />
+								<a class="zoom" href="https://www.figma.com/design/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegación-animada-1?node-id=173-69&t=oskV217dy6uR5xIz-0" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="web futurista.html" >Web estilo futurista/retro</a>
+									<span>2025</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work6 -->
+					
+					<!-- work7 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/Modern Web.png" alt="Web moderna" />
+								<a class="zoom" href="https://www.figma.com/design/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegación-animada-1?node-id=273-220&t=oskV217dy6uR5xIz-0" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="modern.html" >Web Moderna</a>
+									<span>2025</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work7 -->
+
+					<!-- work8 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/task-org.png" alt="Production Deployment" />
+								<a class="zoom" href="https://arg-prog-react-task-front.vercel.app/" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="task-org.html" >Task.org</a>
+									<span>2024</span>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work8 -->
+
+				</div><!-- //PROJECTS SLIDER -->
+			</div>
+		</section><!-- //PROJECTS -->
+	</div><!-- //PAGE -->
+	
+	<!-- CONTACTS -->
+	<section id="contacts">
+	</section><!-- //CONTACTS -->
+	<!-- FOOTER -->
+	<footer>	
+		<!-- CONTAINER -->
+		<div class="container">
+			<!-- ROW -->
+				<div class="col-lg-6 col-md-6 col-sm-6 padbot30 foot_about_block">
+					<h4><b>Sobre</b> mí</h4>
+					<p>Soy un diseñador gráfico con más de 10 años de experiencia, apasionado por transformar ideas en soluciones visuales efectivas.</p>
+					<p>Con los años, me fui interesando en el Desarrollo Web, la Ilustración Digital, y el Diseño Multimedia.</p>
+					<!--<ul class="social">
+						<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-pinterest-square"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="map_show fa fa-map-marker"></i></a></li>
+					</ul>-->
+				</div>
+				<div class="respond_clear"></div>
+				<div class="col-lg-6 col-md-6 padbot30">
+					<h4><b>Comunícate</b> conmigo</h4>
+					<!-- CONTACT FORM -->
+					<div class="span9 contact_form">
+						<div id="note"></div>
+						<div id="fields">
+							<form id="contact-form-face" class="clearfix" action="#">
+								<input type="text" name="name" value="Nombre" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
+								<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';">Mensaje</textarea>
+								<input class="contact_btn" type="submit" value="Enviar" />
+							</form>
+						</div>
+					</div><!-- //CONTACT FORM -->
+				</div>
+			</div><!-- //ROW -->
+		</div><!-- //CONTAINER -->
+	</footer><!-- //FOOTER -->
+
+	<!-- MAP -->
+	<!-- <div id="map">
+		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
+		<iframe src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed" ></iframe>
+	</div>--><!-- //MAP -->
+</div>
+</body>
+</html>

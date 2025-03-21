@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Portfolio | Lamberti Emanuel Adrian</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="shortcut icon" href="images/favicon-16x16.png">
+		
+		<!-- CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+		<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+		<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/owl.carousel.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		
+		<!-- FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+		
+		<!-- SCRIPTS -->
+		<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<!--[if IE]><html class="ie" lang="en"> <![endif]-->
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+		<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+		<script src="js/superfish.min.js" type="text/javascript"></script>
+		<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+		<script src="js/owl.carousel.js" type="text/javascript"></script>
+		<script src="js/animate.js" type="text/javascript"></script>
+		<script src="js/jquery.BlackAndWhite.js"></script>
+		<script src="js/myscript.js" type="text/javascript"></script>
+		<script>
+			
+			//PrettyPhoto
+			jQuery(document).ready(function() {
+				$("a[rel^='prettyPhoto']").prettyPhoto();
+			});
+			
+			//BlackAndWhite
+			$(window).load(function(){
+				$('.client_img').BlackAndWhite({
+					hoverEffect : true, // default true
+					// set the path to BnWWorker.js for a superfast implementation
+					webworkerPath : false,
+					// for the images with a fluid width and height 
+					responsive:true,
+					// to invert the hover effect
+					invertHoverEffect: false,
+					// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+					intensity:1,
+					speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+						fadeIn: 300, // 200ms for fadeIn animations
+						fadeOut: 300 // 800ms for fadeOut animations
+					},
+					onImageReady:function(img) {
+						// this callback gets executed anytime an image is converted
+					}
+				});
+			});
+		</script>
+	</head>
+<body>
+
+<!-- PRELOADER -->
+<img id="preloader" src="images/1488.gif" alt="" />
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page" class="single_page">
+	
+		<!-- HEADER -->
+		<header>
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<a href="index.html" ><img src="/images/logo_personal.png" alt="logo personal EL"></a>
+					</div><!-- //LOGO -->
+					<!-- SEARCH FORM -->
+					<div id="search-form" class="pull-right">
+						<form method="get" action="#">
+							<input type="text" name="Buscar" value="Buscar" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
+						</form>
+					</div><!-- SEARCH FORM -->
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="/index.html" >Inicio</a></li>
+								<li class="scroll_btn"><a href="/index.html#about" >Sobre mí</a></li>
+								<li class="scroll_btn"><a href="/index.html#projects" >Projectos</a></li>
+								<li class="scroll_btn last"><a href="#contacts" >Contactos</a></li>
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+		
+		
+		<!-- BREADCRUMBS -->
+		<section class="breadcrumbs_block clearfix parallax">
+			<div class="container center">
+				<h2><b>Proyectos</b> UX/UI</h2>
+				<p>En este sitio podrás encontrar los distintos prototipos realizados en Figma en los últimos años.</p>
+			</div>
+		</section><!-- //BREADCRUMBS -->
+		
+		
+		<!-- BLOG -->
+		<section id="blog">
+			
+			<!-- CONTAINER -->
+			<div class="container">
+				
+				<!-- ROW -->
+				<div class="row">
+				
+					<!-- BLOG BLOCK -->
+					<div class="blog_block col-lg-9 col-md-9 padbot50">
+						
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/01.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=437-198&p=f&t=Q2MvChr6m8e8wQNq-1&scaling=min-zoom&content-scaling=fixed&page-id=430%3A251&starting-point-node-id=430%3A252" >Estilo After Effects</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Se trata de un prototipado de alta fidelidad en donde probaba mis habilidades y conocimientos técnicos en Figma para crear una animación con los resultados visuales y profesionales que se logran en el software de Adobe After Effects.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=437-198&p=f&t=Q2MvChr6m8e8wQNq-1&scaling=min-zoom&content-scaling=fixed&page-id=430%3A251&starting-point-node-id=430%3A252" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+						
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/02.png" alt="sitio nuevo" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=679-19&t=qg3zW6SID8R6cT2m-1&scaling=scale-down&content-scaling=fixed&page-id=678%3A18" >Sitio de servicios en línea</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">El prototipado es de alta fidelidad y cuenta con animaciónes en slide y scroll. El sitio web es de una agencia, ficticia, que ofrece sus servicios digitales en la web.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=679-19&t=qg3zW6SID8R6cT2m-1&scaling=scale-down&content-scaling=fixed&page-id=678%3A18" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+						
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/03.png" alt="cards" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=25-277&p=f&t=1ovsBToSAYz7yuSG-1&scaling=min-zoom&content-scaling=fixed&page-id=12%3A9&starting-point-node-id=25%3A277" >Animaciones en Cards</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Este proyecto consta de animaciones en los componentes de tarjetas, que al desplegarse, muestran la descripción de la tarjeta, y agrandan de tamaño.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=25-277&p=f&t=1ovsBToSAYz7yuSG-1&scaling=min-zoom&content-scaling=fixed&page-id=12%3A9&starting-point-node-id=25%3A277" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+						
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/04.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=412-3&p=f&t=ozfov6tm6Hv8cll4-1&scaling=min-zoom&content-scaling=fixed&page-id=412%3A2&starting-point-node-id=412%3A3" >Magic</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">El prototipado se basa en las animaciones que se demuestran en el sitio web de la empresa de tecnologías Apple. En el mismo, ponía a prueba mis habilidades en la animación con la herramienta de Figma.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=412-3&p=f&t=ozfov6tm6Hv8cll4-1&scaling=min-zoom&content-scaling=fixed&page-id=412%3A2&starting-point-node-id=412%3A3" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/05.png" alt="planetas" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=396-3&p=f&t=F5Cs7YJvOLZMSnyI-1&scaling=min-zoom&content-scaling=fixed&page-id=395%3A2&starting-point-node-id=396%3A3" >Sistema planetario</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Se trata de un prototipado de alta fidelidad en donde probaba mis habilidades y conocimientos técnicos en Figma para crear un sitio web en el cual se mostraba mediante transiciones animadas, a los planetas de un lejano sistema planetario, con sus descripciones en la parte superior.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=396-3&p=f&t=F5Cs7YJvOLZMSnyI-1&scaling=min-zoom&content-scaling=fixed&page-id=395%3A2&starting-point-node-id=396%3A3" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/06.png" alt="web futurista" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=161-3&p=f&t=TyIf0TdnUVegWVQa-1&scaling=min-zoom&content-scaling=fixed&page-id=160%3A2&starting-point-node-id=161%3A3" >Web Futurista / Retro</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Este fue uno de mis primeros sitios web prototipados en alta fidelidad en Figma. Se trata de un sitio fiticio en donde una empresa vende sus visores de Realidad Virtual.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=161-3&p=f&t=TyIf0TdnUVegWVQa-1&scaling=min-zoom&content-scaling=fixed&page-id=160%3A2&starting-point-node-id=161%3A3" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/07.png" alt="pagina moderna" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=267-156&t=bLQyHxXuTffsVSSf-1&scaling=min-zoom&content-scaling=fixed&page-id=261%3A1267&starting-point-node-id=267%3A156" >Web Moderna</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Se trata de un prototipado de alta fidelidad de  un sitio web ficiticio,, donde un grupo de profesionales ofrecen sus servicios digitales en la web.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=267-156&t=bLQyHxXuTffsVSSf-1&scaling=min-zoom&content-scaling=fixed&page-id=261%3A1267&starting-point-node-id=267%3A156" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/08.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=149-163&p=f&t=MkK4boDbVOyDwj7L-1&scaling=scale-down&content-scaling=fixed&page-id=149%3A162&starting-point-node-id=149%3A163" >Portaretrato</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">El prototipo consta de un complejo componente dentro de otro componente. Tanto el texto como la imágen de fondo cambian acorde a la card animada que se muestra en pantalla.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=149-163&p=f&t=MkK4boDbVOyDwj7L-1&scaling=scale-down&content-scaling=fixed&page-id=149%3A162&starting-point-node-id=149%3A163" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/09.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=261-974&p=f&t=kW7phBpHapAdRotj-1&scaling=scale-down&content-scaling=fixed&page-id=261%3A973&starting-point-node-id=261%3A974" >Cards animadas</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Se trata de un prototipado de alta fidelidad en donde se muestran un conjunto de cards animadas. Con cada click, cada card modificaban sus dimensiones y textos correspondientes. Consta de una animación con slide.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=261-974&p=f&t=kW7phBpHapAdRotj-1&scaling=scale-down&content-scaling=fixed&page-id=261%3A973&starting-point-node-id=261%3A974" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/10.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=88-464&p=f&t=T34laWaMoShwulyz-1&scaling=scale-down&content-scaling=fixed&page-id=78%3A463&starting-point-node-id=88%3A464" >Slide con lata</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">El prototipo de alta fidelidad más avanzado que realicé como profesional hasta el día de la fecha. De nos enseña una lata de bebida en el centro y un efecto hacia los costados, que al hacerlo, el color y el texto se modifican, correspondiendo al sabor de la bebida que se muestra.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=88-464&p=f&t=T34laWaMoShwulyz-1&scaling=scale-down&content-scaling=fixed&page-id=78%3A463&starting-point-node-id=88%3A464" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/11.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=299-121&t=qB8C53lJOtQ2exhc-1&scaling=scale-down&content-scaling=fixed&page-id=298%3A47&starting-point-node-id=298%3A48" >Carousel animado circular</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Prototipo de alta fidelidad con un alto grado de dificultad, ya que cuenta con una animación simulando la tercera dimensión de los elementos gráficos. Se nos enseña varios platos de un restaurante ficticio de una forma dinámica y única, resaltando los colores característicos de cada variedad.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=299-121&t=qB8C53lJOtQ2exhc-1&scaling=scale-down&content-scaling=fixed&page-id=298%3A47&starting-point-node-id=298%3A48" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/12.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=499-36&t=9Wocr1r1P585uwza-1&scaling=scale-down&content-scaling=fixed&page-id=499%3A2&starting-point-node-id=499%3A3" >Logo Splash Animation</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Animación de logotipo en aplicación para dispositivos móbiles. Dinámico, sencillo, y efectivo.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=499-36&t=9Wocr1r1P585uwza-1&scaling=scale-down&content-scaling=fixed&page-id=499%3A2&starting-point-node-id=499%3A3" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/13.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=443-411&p=f&t=NJwwieKUWUeo67yA-1&scaling=min-zoom&content-scaling=fixed&page-id=443%3A410&starting-point-node-id=443%3A411" >Spotlight</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Protipado de alta fidelidad. Efecto muy eficaz para causar la sorpresa del espectador. Pasa el cursor por encima de la palabra y descubre la sorpresa.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=443-411&p=f&t=NJwwieKUWUeo67yA-1&scaling=min-zoom&content-scaling=fixed&page-id=443%3A410&starting-point-node-id=443%3A411" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/14.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=438-237&p=f&t=1wximdn7ZNeT72mS-1&scaling=min-zoom&content-scaling=fixed&page-id=438%3A236&starting-point-node-id=438%3A237" >Animación Slider Avanzada</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Protipado de un sitio web dinámico donde se muestran varias categorias de portaretrados. Cada componente la componen varias tarjetas que se muestran de una forma única.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=438-237&p=f&t=1wximdn7ZNeT72mS-1&scaling=min-zoom&content-scaling=fixed&page-id=438%3A236&starting-point-node-id=438%3A237" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/15.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=354-185&p=f&t=Lc2Kl8mc1QiaCTMw-1&scaling=min-zoom&content-scaling=fixed&page-id=352%3A95&starting-point-node-id=354%3A185" >Reflacted glass efect</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Es una animación única y avanzada. Da la ilusión de unas luces que se reflejan por atrás de una pared de vidrio.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=354-185&p=f&t=Lc2Kl8mc1QiaCTMw-1&scaling=min-zoom&content-scaling=fixed&page-id=352%3A95&starting-point-node-id=354%3A185" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/16.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=347-87&t=TCfudoz3Zm4YWZP2-1&scaling=min-zoom&content-scaling=fixed&page-id=347%3A56" >Hover Interactivo en tarjetas</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Animación especial para las tarjetas en una aplicación. Le brinda dinamismo e intensidad a los componentes que componen la web.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=347-87&t=TCfudoz3Zm4YWZP2-1&scaling=min-zoom&content-scaling=fixed&page-id=347%3A56" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/17.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=202-135&t=Atnop8DvDbrxRLvN-1&scaling=scale-down&content-scaling=fixed&page-id=196%3A62&starting-point-node-id=196%3A64" >Login y Registro interactivo</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Prototipado funcional de pestañas de Login y Registro de una web.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=202-135&t=Atnop8DvDbrxRLvN-1&scaling=scale-down&content-scaling=fixed&page-id=196%3A62&starting-point-node-id=196%3A64" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/18.png" alt="estilo after effects" />
+							</div>
+							<div class="blog_post_descr">
+								<!--<div class="blog_post_date">JANUARY 30 | 21:30</div>-->
+								<a class="blog_post_title" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=121-208&p=f&t=7dusJFvPJdM4vyID-1&scaling=scale-down&content-scaling=fixed&page-id=120%3A196&starting-point-node-id=121%3A197" >Animación en pantalla de carga</a>
+								<!--<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>-->
+								<hr>
+								<div class="blog_post_content">Animación efectiva y moderna para pantalla de carga de una aplicación mobile.</div>
+								<a class="read_more_btn" href="https://www.figma.com/proto/rRggoHeD2FGmxL9beQ2J8G/Barra-de-navegaci%C3%B3n-animada-1?node-id=121-208&p=f&t=7dusJFvPJdM4vyID-1&scaling=scale-down&content-scaling=fixed&page-id=120%3A196&starting-point-node-id=121%3A197" >Ver aquí</a>
+							</div>
+						</div><!-- //BLOG POST -->
+
+						<!-- PAGINATION -->
+						<!--<ul class="pagination clearfix">
+							<li><a href="javascript:void(0);" >1</a></li>
+							<li><a href="javascript:void(0);" >2</a></li>
+							<li class="active"><a href="javascript:void(0);" >3</a></li>
+							<li><a href="javascript:void(0);" >4</a></li>
+							<li><a href="javascript:void(0);" >5</a></li>
+							<li><a href="javascript:void(0);" >. . .</a></li>
+							<li><a href="javascript:void(0);" >75</a></li>
+						</ul>--><!-- //PAGINATION -->
+					</div><!-- //BLOG BLOCK -->
+					
+					
+					<!-- SIDEBAR -->
+					<div class="sidebar col-lg-3 col-md-3 padbot50">
+						
+						<!-- META WIDGET -->
+						<div class="sidepanel widget_meta">
+							<ul>
+								<li><a href="javascript:void(0);" >Ilustraciíon</a></li>
+								<li><a href="javascript:void(0);" >Multimedia</a></li>
+								<li><a href="javascript:void(0);" >Prototipos</a></li>
+								<li><a href="javascript:void(0);" >Diseño Gráfico</a></li>
+								<li><a href="javascript:void(0);" >Creatividad</a></li>
+							</ul>
+						</div><!-- //META WIDGET -->
+						
+						
+						<!-- POPULAR POSTS WIDGET -->
+						<!--<div class="sidepanel widget_popular_posts">
+							<h3><b>Popular</b> Posts</h3>
+							
+							<div class="recent_posts_widget clearfix">
+								<div class="post_item_img_widget">
+									<img src="images/blog/1.jpg" alt="" />
+								</div>
+								<div class="post_item_content_widget">
+									<a class="title" href="blog.html" >How the Denver Broncos Cheerleaders Get in Shape for the Super Bowl</a>
+									<ul class="post_item_inf_widget">
+										<li>JANUARY 30  |  21:30</li>
+									</ul>
+								</div>
+							</div>
+							<div class="recent_posts_widget clearfix">
+								<div class="post_item_img_widget">
+									<img src="images/blog/2.jpg" alt="" />
+								</div>
+								<div class="post_item_content_widget">
+									<a class="title" href="blog.html" >Barneys Spring Campaign Stars 17 Transgender Models</a>
+									<ul class="post_item_inf_widget">
+										<li>JANUARY 25  |  9:30</li>
+									</ul>
+								</div>
+							</div>
+							<div class="recent_posts_widget clearfix">
+								<div class="post_item_img_widget">
+									<img src="images/blog/3.jpg" alt="" />
+								</div>
+								<div class="post_item_content_widget">
+									<a class="title" href="blog.html" >Dominic Cooper: I'm Nothing Like the Real James Bond</a>
+									<ul class="post_item_inf_widget">
+										<li>JANUARY 21  |  13:30</li>
+									</ul>
+								</div>
+							</div>
+						</div>--><!-- //POPULAR POSTS WIDGET -->
+						
+						<hr>
+						
+						<!-- POPULAR TAGS WIDGET -->
+						<div class="sidepanel widget_tags">
+							<h3><b>Principales</b> Habilidades</h3>
+							<ul>
+								<li><a href="javascript:void(0);" >Adobe</a></li>
+								<li><a href="javascript:void(0);" >Digital</a></li>
+								<li><a href="javascript:void(0);" >Color</a></li>
+								<li><a href="javascript:void(0);" >Identidad de marca</a></li>
+								<li><a href="javascript:void(0);" >Tarjetas</a></li>
+								<li><a href="javascript:void(0);" >Frontend</a></li>
+								<li><a href="javascript:void(0);" >Web</a></li>
+							</ul>
+						</div><!-- POPULAR TAGS WIDGET -->
+						
+						<hr>
+						
+						<!-- TEXT WIDGET -->
+						<!--<div class="sidepanel widget_text">
+							<h3><b>About</b> Blog</h3>
+							<p>I must admit this particular defense set me on edge a little bit, for two reasons. The first is that she’s being held to a completely different standard than male politicians are held to.</p>
+						</div>--><!-- //TEXT WIDGET -->
+					</div><!-- //SIDEBAR -->
+				</div><!-- //ROW -->
+			</div><!-- //CONTAINER -->
+		</section><!-- //BLOG -->
+	</div><!-- //PAGE -->
+
+	
+	<!-- CONTACTS -->
+	<section id="contacts">
+	</section><!-- //CONTACTS -->
+	
+<!-- FOOTER -->
+<footer>	
+	<!-- CONTAINER -->
+	<div class="container">
+		<!-- ROW -->
+			<div class="col-lg-6 col-md-6 col-sm-6 padbot30 foot_about_block">
+				<h4><b>Sobre</b> mí</h4>
+				<p>Soy un diseñador gráfico con más de 10 años de experiencia, apasionado por transformar ideas en soluciones visuales efectivas.</p>
+				<p>Con los años, me fui interesando en el Desarrollo Web, la Ilustración Digital, y el Diseño Multimedia.</p>
+				<!--<ul class="social">
+					<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
+					<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
+					<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="javascript:void(0);" ><i class="fa fa-pinterest-square"></i></a></li>
+					<li><a href="javascript:void(0);" ><i class="map_show fa fa-map-marker"></i></a></li>
+				</ul>-->
+			</div>
+			<div class="respond_clear"></div>
+			<div class="col-lg-6 col-md-6 padbot30">
+				<h4><b>Comunícate</b> conmigo</h4>
+				<!-- CONTACT FORM -->
+				<div class="span9 contact_form">
+					<div id="note"></div>
+					<div id="fields">
+						<form id="contact-form-face" class="clearfix" action="#">
+							<input type="text" name="name" value="Nombre" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
+							<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';">Mensaje</textarea>
+							<input class="contact_btn" type="submit" value="Enviar" />
+						</form>
+					</div>
+				</div><!-- //CONTACT FORM -->
+			</div>
+		</div><!-- //ROW -->
+	</div><!-- //CONTAINER -->
+</footer><!-- //FOOTER -->
+	
+	
+	<!-- MAP -->
+	<!-- <div id="map">
+		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
+		<iframe src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed" ></iframe>
+	</div>--><!-- //MAP -->
+
+</div>
+</body>
+</html>
