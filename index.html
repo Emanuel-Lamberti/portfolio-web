@@ -18,7 +18,8 @@
     
 	<!-- FONTS -->
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
     
 	<!-- SCRIPTS -->
 	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -93,7 +94,7 @@
 							<ul>
 								<li class="first active scroll_btn"><a href="#home" >Inicio</a></li>
 								<li class="scroll_btn"><a href="#about" >Sobre mí</a></li>
-								<li class="scroll_btn"><a href="#projects" >Projectos</a></li>
+								<li class="scroll_btn"><a href="#projects" >Proyectos</a></li>
 								<li class="scroll_btn last"><a href="#contacts" >Contactos</a></li>
 							</ul>
 						</nav>
@@ -161,7 +162,7 @@
 						</div>
 						<div class="tab-pane fade clearfix" id="tab2">
 							<p class="title"><b>Diseñador</b> Gráfico</p>
-							<span>Soy un diseñador gráfico apasionado por transformar ideas en soluciones visuales efectivas. Con mis conocimientos en herramientas digitales como los programas de Adobe, soy capaz de realizar banners, branding, diseño editorial ,y logotipos de alta calidad.</span>
+							<span>Soy un diseñador gráfico apasionado por transformar ideas en soluciones visuales efectivas. Con mis conocimientos en herramientas digitales como los programas de Adobe, soy capaz de realizar banners, branding, diseño editorial, y logotipos de alta calidad.</span>
 						</div>
 						<div class="tab-pane fade clearfix" id="tab3">
 							<p class="title"><b>Programador</b></p>
@@ -173,7 +174,7 @@
 						</div>
 						<div class="tab-pane fade clearfix" id="tab5">
 							<p class="title"><b>Multimedia</b></p>
-							<span>Con una buena experiencia en edición de vídeos, soy capaz de desarrollar piezas audiovisuales de alta calidad con varios propósitos Me manejo muy bien con los programas de Adobe, y CatCup.</span>
+							<span>Con una buena experiencia en edición de vídeos, soy capaz de desarrollar piezas audiovisuales de alta calidad con varios propósitos. Me manejo muy bien con los programas de Adobe, y CatCup.</span>
 						</div>
 						<div class="tab-pane fade clearfix" id="tab6">
 							<p class="title"><b>Ilustrador</b> Digital</p>
@@ -384,8 +385,14 @@
 						<div id="note"></div>
 						<div id="fields">
 							<form id="contact-form-face" class="clearfix" action="#">
-								<input type="text" name="name" value="Nombre" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
-								<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';">Mensaje</textarea>
+								<input type="text" name="name" value="Nombre" 
+								onFocus="if (this.value === 'Nombre') this.value = '';" 
+								onBlur="if (this.value === '') this.value = 'Nombre';" />
+
+								<textarea name="message" 
+									onFocus="if (this.value === 'Mensaje') this.value = '';" 
+									onBlur="if (this.value === '') this.value = 'Mensaje';">Mensaje</textarea>
+
 								<input class="contact_btn" type="submit" value="Enviar" />
 							</form>
 						</div>
