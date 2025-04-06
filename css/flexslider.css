@@ -501,31 +501,77 @@ html[xmlns] .slides {display: block;}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.top_slider .slide1 .flex_caption1, .top_slider .slide2 .flex_caption1, .top_slider .slide3 .flex_caption1 {margin-left:-375px;}
-	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3 {font-size:60px; line-height:60px;}
-	.top_slider .slide_btn {margin-left:204px;}
+	.top_slider .slide1 .flex_caption1, .top_slider .slide2 .flex_caption1, .top_slider .slide3 .flex_caption1 {
+		margin-left:-375px;
+	}
+
+	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3 {
+		font-size:60px; 
+		line-height:60px;
+	}
+
+	.top_slider .slide_btn {
+		margin-left:204px;
+	}
 	
-	.top_slider .slide1 .flex_caption1 .title4, .top_slider .slide2 .flex_caption1 .title4, .top_slider .slide3 .flex_caption1 .title4 {font-size:17px; line-height:24px; width:450px;}
+	.top_slider .slide1 .flex_caption1 .title4, .top_slider .slide2 .flex_caption1 .title4, .top_slider .slide3 .flex_caption1 .title4 {
+		font-size:17px; 
+		line-height:24px; 
+		width:450px;
+	}
 	
 	
 }
 
 @media (max-width: 767px) {
-	.flexslider.top_slider:before {height:40px;}
+	.flexslider.top_slider:before {
+		height:40px;
+	}
+	
+	.flexslider.top_slider .flex-direction-nav {
+		position:relative;
+		margin:0 auto;
+		left: 40px;
+	}
+
+	.top_slider .slide1 .flex_caption1, .top_slider .slide2 .flex_caption1, .top_slider .slide3 .flex_caption1 {
+		margin-left:0; 
+		left:45px;
+	}
+
+	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3 {
+		font-size:40px; 
+		line-height:40px;
+	}
+	
+	.top_slider .slide1 .flex_caption1 .title4, .top_slider .slide2 .flex_caption1 .title4, .top_slider .slide3 .flex_caption1 .title4 {
+		font-size:18px; 
+		line-height:24px; 
+		width:420px;
+	}
 	
 	
-	.top_slider .slide1 .flex_caption1, .top_slider .slide2 .flex_caption1, .top_slider .slide3 .flex_caption1 {margin-left:0; left:15px;}
-	.top_slider .slide1 .flex_caption1 .title1, .top_slider .slide1 .flex_caption1 .title2, .top_slider .slide1 .flex_caption1 .title3, .top_slider .slide2 .flex_caption1 .title1, .top_slider .slide2 .flex_caption1 .title2, .top_slider .slide2 .flex_caption1 .title3, .top_slider .slide3 .flex_caption1 .title1, .top_slider .slide3 .flex_caption1 .title2, .top_slider .slide3 .flex_caption1 .title3 {font-size:40px; line-height:40px;}
-	
-	.top_slider .slide1 .flex_caption1 .title4, .top_slider .slide2 .flex_caption1 .title4, .top_slider .slide3 .flex_caption1 .title4 {font-size:13px; line-height:19px; width:420px;}
-	
-	
-	#carousel .slides li {width:70px !important; height:55px !important; margin:0 0 0 2px !important;}
+	#carousel .slides li {
+		width:70px !important; 
+		height:55px !important; 
+		margin:0 0 0 2px !important;
+	}
 	
 	
-	.flexslider.top_slider .flex-direction-nav li a {width:50px; height:50px;}
-	.flexslider.top_slider .flex-direction-nav li a.flex-next {left:51px;}
-	.flexslider.top_slider .flex-direction-nav li a:before {width:50px; height:50px; line-height:46px;}
+	.flexslider.top_slider .flex-direction-nav li a {
+		width:50px; 
+		height:50px;
+	}
+
+	.flexslider.top_slider .flex-direction-nav li a.flex-next {
+		left:51px;
+	}
+
+	.flexslider.top_slider .flex-direction-nav li a:before {
+		width:50px; 
+		height:50px; 
+		line-height:46px;
+	}
 	
 	
 	.top_slider .slide_btn {padding:15px 20px 15px 5px; width:auto; left:auto; right:15px; margin:0;}

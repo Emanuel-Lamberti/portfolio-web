@@ -1586,19 +1586,15 @@ input[type="color"]:focus {
 	
 /* __________ Blog __________ */
 	.blog_post_descr hr {margin:15px 0;}
-	
 	.blog_post_img {width:400px; height:314px;}
 	.blog_post_title {font-size:24px; line-height:27px;}
 	.blog_post_content {font-size:14px; line-height:22px;}
-	
-	
 	.single_blog_post_title{font-size:44px; line-height:50px;}
 	
 	
 
 /* __________ Sidebar __________ */
-	.widget_meta li a {font-size:17px; line-height:20px;}
-	
+	.widget_meta li a {font-size:17px; line-height:20px;}	
 	.post_item_img_widget{width:220px; height:146px;}
 	.post_item_content_widget a.title {font-size:16px; line-height:20px;}
 
@@ -1608,20 +1604,14 @@ input[type="color"]:focus {
 
 /* __________ All Styles __________ */
 	.breadcrumbs_block {padding:50px 0;}
-	
-	
 	.map_hide {margin-left:435px;}
-	
-	
+		
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.logo a {font-size:22px;}
-	
-	
 	#search-form input:focus {width:42px;}
 	
-
 /* __________ Menu __________ */
 	.navmenu ul li a {padding-left:10px; padding-right:10px; font-size:12px;}
 	
@@ -1639,7 +1629,11 @@ input[type="color"]:focus {
 	
 	
 	.purpose_block {padding-top:35px;}
-	.purpose_block .ipad_img1 {margin-top:-50px;}
+	.purpose_block .ipad_img1 {
+		height: 250px;
+		width: 220px;
+		margin-top: 60px;
+	}
 	.purpose_block p {font-size:12px; line-height:20px;}
 	
 	
@@ -1699,7 +1693,14 @@ input[type="color"]:focus {
 	
 
 /* __________ Footer __________ */
-	footer {position:static; left:auto; bottom:auto; transform:none; -webkit-transform:none;}
+	footer {
+		position:static; 
+		left:auto; 
+		bottom:auto; 
+		transform:none; 
+		-webkit-transform:none;
+		margin-top: -350px;
+	}
 	
 	
 	.map_hide {margin-left:325px;}
@@ -1713,12 +1714,9 @@ input[type="color"]:focus {
 @media (max-width: 767px) {
 	.container {padding-left:15px; padding-right:15px;}
 	
-	
 	h2 {font-size:30px; line-height:32px;}
 	
-	
 	.logo a {font-size:22px;}
-	
 	
 	#search-form input:focus {width:42px;}
 	
@@ -1751,10 +1749,23 @@ input[type="color"]:focus {
 	.nav-tabs li a:hover i {background-position:0 -90px; transform:translateY(-5px); -o-transform:translateY(-5px); -ms-transform:translateY(-5px); -webkit-transform:translateY(-5px);}
 	.nav-tabs li.active a i {background-position:0 0; transform:translateY(-10px); -o-transform:translateY(-10px); -ms-transform:translateY(-10px); -webkit-transform:translateY(-10px);}
 	
+	.cleancode_block .tab-content {
+		overflow:hidden;
+		padding-top: 230px;
+		margin:0 0 80px;
+	}
 	
 	.purpose_block {padding-top:35px;}
-	.ipad_img_in {width:350px; margin:0 auto;}
-	.purpose_block .ipad_img1 {margin-top:40px;}
+
+	.ipad_img_in {
+		width:350px; 
+		margin:0 auto;
+	}
+
+	.purpose_block .ipad_img1 {
+		margin-top:40px;
+		margin-left: -50px;
+	}
 	.purpose_block p {font-size:12px; line-height:20px;}
 	
 	
@@ -1837,7 +1848,14 @@ input[type="color"]:focus {
 
 
 /* __________ Footer __________ */
-	footer {position:static; left:auto; bottom:auto; transform:none; -webkit-transform:none;}
+	footer {
+		position:static; 
+		left:auto; 
+		bottom:auto; 
+		transform:none; 
+		-webkit-transform:none;
+		margin-top: -380px;
+	}
 	
 	
 	.map_hide {margin:0; left:auto; right:15px;}
@@ -1865,10 +1883,15 @@ input[type="color"]:focus {
 	.cleancode_block .nav-tabs li {padding:0;}
 	.cleancode_block .nav-tabs li a {width:96px; height:96px;}
 	
-	
+	.cleancode_block .tab-content {
+		overflow:hidden;
+		padding-top: 0px;
+		margin:0 0 60px;
+	}
+
 	.ipad_img_in {width:290px;}
 	
-	
+
 	.our_clients .row {width:290px;}
 	
 	
